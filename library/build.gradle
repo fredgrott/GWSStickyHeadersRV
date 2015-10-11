@@ -101,6 +101,8 @@ dependencies {
     androidTestCompile(rootProject.ext.instrumentedTestDependencies.assertjAppCompat){
         exclude group: 'com.android.support'
     }
+    compile rootProject.ext.androidSupportDependencies.recyclerView
+
 
 }
 install {
