@@ -8,7 +8,6 @@ import android.os.Handler;
 import android.os.Looper;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,9 +16,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-import com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersAdapter;
-import com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersDecoration;
-import com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersTouchListener;
+import com.github.shareme.gwsstickyheadersrv.library.StickyRecyclerHeadersAdapter;
+import com.github.shareme.gwsstickyheadersrv.library.StickyRecyclerHeadersDecoration;
+import com.github.shareme.gwsstickyheadersrv.library.StickyRecyclerHeadersTouchListener;
 
 import java.security.SecureRandom;
 
